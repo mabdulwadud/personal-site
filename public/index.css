@@ -41,6 +41,7 @@ h1, p, .nav-link{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  margin-block-start: 10rem;
 }
 
 .flex-item{
@@ -64,10 +65,13 @@ h1, p, .nav-link{
 }
 
 .heading-text{
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   margin-block: .2rem;
 }
 
+.subheading{
+  font-size: 24px;
+}
 
 :root{
   --main-bg-color: #262A33;
